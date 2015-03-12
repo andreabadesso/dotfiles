@@ -60,6 +60,9 @@ endif
 set autoindent
 set backspace=indent,eol,start
 set complete-=i
+
+" Remove Scratch window:
+set completeopt-=preview
 set showmatch
 set showmode
 set smarttab
@@ -123,7 +126,7 @@ set fileformats=unix,dos,mac
 " exit insert mode
 inoremap <C-c> <Esc>
 
-set completeopt=menuone,longest,preview
+" set completeopt=menuone,longest,preview
 
 "
 " Plugins config
