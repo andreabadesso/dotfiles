@@ -31,6 +31,7 @@ Plugin 'othree/javascript-libraries-syntax.vim'
 Bundle 'geekjuice/vim-mocha'
 Plugin 'othree/html5.vim'
 Plugin 'leshill/vim-json'
+Plugin 'heavenshell/vim-jsdoc'
 
 " Snipmate
 " Bundle "MarcWeber/vim-addon-mw-utils"
@@ -75,7 +76,7 @@ set ttimeoutlen=50
 
 set incsearch
 " Use <C-L> to clear the highlighting of :set hlsearch.
-if maparg('<C-L>', 'n') ==# ''
+if maparg('<C-H>', 'n') ==# ''
   nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
 endif
 
