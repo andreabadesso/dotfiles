@@ -7,7 +7,7 @@ Bundle 'gmarik/vundle'
 
 Bundle 'tpope/vim-surround'
 Bundle 'gcmt/breeze.vim'
-" Bundle 'kien/ctrlp.vim'
+Bundle 'kien/ctrlp.vim'
 Bundle 'SirVer/ultisnips'
 " Bundle 'tomtom/tcomment_vim'
 Bundle 'bling/vim-airline'
@@ -98,7 +98,7 @@ set ignorecase
 set smartcase
 
 " Necessário para o powerline funcionar no MacVim
-set guifont=Source\ Code\ Pro\ for\ Powerline:h13
+set guifont=Source\ Code\ Pro\ for\ Powerline:h15
 
 " Remove a scrollbar na direita e esquerda do MacVim
 set guioptions-=r
