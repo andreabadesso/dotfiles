@@ -1,9 +1,9 @@
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
+Bundle 'gmarik/Vundle.vim'
 
 Bundle 'tpope/vim-surround'
 Bundle 'gcmt/breeze.vim'
@@ -23,7 +23,7 @@ Plugin 'mattn/emmet-vim'
 " Themes
 Bundle 'flazz/vim-colorschemes'
 Plugin 'benjaminwhite/Benokai'
-Plugin 'morhetz/gruvbox'
+Bundle 'morhetz/gruvbox'
 Plugin 'trusktr/seti.vim'
 
 " Javascript
@@ -40,6 +40,9 @@ Plugin 'heavenshell/vim-jsdoc'
 
 " Extra Snippets
 Bundle "honza/vim-snippets"
+
+call vundle#end()            " required
+set t_Co=256
 
 colorscheme gruvbox
 " colorscheme seti
