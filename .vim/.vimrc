@@ -41,7 +41,7 @@ Plugin 'heavenshell/vim-jsdoc'
 " Extra Snippets
 Bundle "honza/vim-snippets"
 
-call vundle#end()            " required
+call vundle#end() " required
 set t_Co=256
 
 colorscheme gruvbox
@@ -102,7 +102,7 @@ set ignorecase
 set smartcase
 
 " Necessário para o powerline funcionar no MacVim
-set guifont=Source\ Code\ Pro\ for\ Powerline:h15
+set guifont=Source\ Code\ Pro\ for\ Powerline:h13
 
 " Remove a scrollbar na direita e esquerda do MacVim
 set guioptions-=r
