@@ -26,6 +26,9 @@ Plugin 'benjaminwhite/Benokai'
 Bundle 'morhetz/gruvbox'
 Plugin 'trusktr/seti.vim'
 
+" CSS
+Plugin 'skammer/vim-css-color'
+
 " Javascript
 Plugin 'othree/javascript-libraries-syntax.vim'
 Bundle 'geekjuice/vim-mocha'
