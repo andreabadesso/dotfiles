@@ -45,6 +45,7 @@ call vundle#end()            " required
 set t_Co=256
 
 colorscheme gruvbox
+set background=dark
 " colorscheme seti
 
 " Javascript Libraries Syntax:
