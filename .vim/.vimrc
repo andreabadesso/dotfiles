@@ -36,6 +36,8 @@ Plugin 'othree/html5.vim'
 Plugin 'leshill/vim-json'
 Plugin 'heavenshell/vim-jsdoc'
 
+Bundle 'wakatime/vim-wakatime'
+
 " Snipmate
 " Bundle "MarcWeber/vim-addon-mw-utils"
 " Bundle "tomtom/tlib_vim"
