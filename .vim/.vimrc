@@ -11,7 +11,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'SirVer/ultisnips'
 " Bundle 'tomtom/tcomment_vim'
 Bundle 'bling/vim-airline'
-Bundle 'airblade/vim-gitgutter'
+" Bundle 'airblade/vim-gitgutter'
 Plugin 'Lokaltog/powerline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jwhitley/vim-matchit'
@@ -19,6 +19,10 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'mattn/emmet-vim'
 " Bundle "wookiehangover/jshint.vim"
+
+" GIT
+Bundle 'tpope/vim-fugitive'
+Bundle 'gregsexton/gitv'
 
 " Themes
 Bundle 'flazz/vim-colorschemes'
@@ -35,7 +39,10 @@ Bundle 'geekjuice/vim-mocha'
 Plugin 'othree/html5.vim'
 Plugin 'leshill/vim-json'
 Plugin 'heavenshell/vim-jsdoc'
+Plugin 'maksimr/vim-jsbeautify'
+Plugin 'einars/js-beautify'
 
+" Time tracking:
 Bundle 'wakatime/vim-wakatime'
 
 " Snipmate
@@ -157,6 +164,9 @@ let g:did_UltiSnips_vim_after = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline_powerline_fonts = 1
+
+" YouCompleteMe:
+let g:ycm_register_as_syntastic_checker = 0
 
 "
 " Basic shortcuts definitions
