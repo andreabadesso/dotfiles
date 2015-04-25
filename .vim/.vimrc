@@ -15,10 +15,15 @@ Bundle 'bling/vim-airline'
 Plugin 'Lokaltog/powerline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jwhitley/vim-matchit'
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'mattn/emmet-vim'
 " Bundle "wookiehangover/jshint.vim"
+Plugin 'kien/rainbow_parentheses.vim'
+
+" Testing:
+" Plugin 'osyo-manga/vim-marching'
+" Plugin 'Shougo/neocomplete.vim'
 
 " GIT
 Bundle 'tpope/vim-fugitive'
@@ -31,16 +36,19 @@ Bundle 'morhetz/gruvbox'
 Plugin 'trusktr/seti.vim'
 
 " CSS
-Plugin 'skammer/vim-css-color'
+" Plugin 'skammer/vim-css-color'
+Plugin 'ap/vim-css-color'
 
 " Javascript
 Plugin 'othree/javascript-libraries-syntax.vim'
 Bundle 'geekjuice/vim-mocha'
 Plugin 'othree/html5.vim'
 Plugin 'leshill/vim-json'
-Plugin 'heavenshell/vim-jsdoc'
 Plugin 'maksimr/vim-jsbeautify'
 Plugin 'einars/js-beautify'
+Plugin 'myhere/vim-nodejs-complete'
+Plugin 'heavenshell/vim-jsdoc'
+Plugin 'jelera/vim-javascript-syntax'
 
 " Time tracking:
 Bundle 'wakatime/vim-wakatime'
