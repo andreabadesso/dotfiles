@@ -20,6 +20,7 @@ Plugin 'marijnh/tern_for_vim'
 Plugin 'mattn/emmet-vim'
 " Bundle "wookiehangover/jshint.vim"
 Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'Valloric/YouCompleteMe'
 
 " Testing:
 " Plugin 'osyo-manga/vim-marching'
@@ -34,6 +35,8 @@ Bundle 'flazz/vim-colorschemes'
 Plugin 'benjaminwhite/Benokai'
 Bundle 'morhetz/gruvbox'
 Plugin 'trusktr/seti.vim'
+Plugin 'tpope/vim-vividchalk'
+Plugin 'chriskempson/vim-tomorrow-theme'
 
 " CSS
 " Plugin 'skammer/vim-css-color'
@@ -49,6 +52,7 @@ Plugin 'einars/js-beautify'
 Plugin 'myhere/vim-nodejs-complete'
 Plugin 'heavenshell/vim-jsdoc'
 Plugin 'jelera/vim-javascript-syntax'
+Plugin 'goatslacker/mango.vim'
 
 " Time tracking:
 Bundle 'wakatime/vim-wakatime'
@@ -65,6 +69,7 @@ call vundle#end() " required
 set t_Co=256
 
 colorscheme gruvbox
+" colorscheme Tomorrow-Night-Blue
 set background=dark
 " colorscheme seti
 
@@ -122,7 +127,8 @@ set ignorecase
 set smartcase
 
 " Necessário para o powerline funcionar no MacVim
-set guifont=Source\ Code\ Pro\ for\ Powerline:h13
+set guifont=Source\ Code\ Pro\ for\ Powerline:h14
+" set guifont=ProggyCleanTT\ 12
 
 " Remove a scrollbar na direita e esquerda do MacVim
 set guioptions-=r
@@ -159,6 +165,10 @@ inoremap <C-c> <Esc>
 
 " CtrlP
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  'node_modules\|DS_Store\|git\|bower_components',
+  \ 'file': '\v\.(exe|so|dll)$',
+  \ }
 
 " UltiSnip
 " <C-j> para o UltiSnip não sobreescrever o <tab>
@@ -228,3 +238,5 @@ noremap <Leader>nt :NERDTreeToggle<CR>
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
+
+runtime macros/matchit.vim
