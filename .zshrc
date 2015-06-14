@@ -89,4 +89,5 @@ alias ohmyzsh="mvim ~/.oh-my-zsh"
 # Activating NVM:
 . ~/.nvm/nvm.sh
 
-
+# Using node by default
+nvm use node
