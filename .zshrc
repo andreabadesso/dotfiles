@@ -91,3 +91,6 @@ alias ohmyzsh="mvim ~/.oh-my-zsh"
 
 # Using node by default
 nvm use node
+
+# Z.sh
+. ~/.dotfiles/.z/z.sh
