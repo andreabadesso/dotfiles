@@ -127,7 +127,7 @@ set ignorecase
 set smartcase
 
 " Necessário para o powerline funcionar no MacVim
-set guifont=Source\ Code\ Pro\ for\ Powerline:h14
+set guifont=Source\ Code\ Pro\ for\ Powerline\ 12
 " set guifont=ProggyCleanTT\ 12
 
 " Remove a scrollbar na direita e esquerda do MacVim
