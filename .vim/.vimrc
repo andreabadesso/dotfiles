@@ -112,8 +112,8 @@ set hlsearch
 set ignorecase
 set smartcase
 
-" Necessary for good looking fonts on MacVim
-set guifont=Source\ Code\ Pro\ for\ Powerline:h14
+" Necessário para o powerline funcionar no MacVim
+set guifont=Source\ Code\ Pro\ for\ Powerline\ 12
 " set guifont=ProggyCleanTT\ 12
 
 " Remove fugly scrollbars in MacVim
