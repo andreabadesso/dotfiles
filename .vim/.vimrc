@@ -15,7 +15,11 @@ Plugin 'jwhitley/vim-matchit'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'scrooloose/syntastic'
+Plugin 'elixir-lang/vim-elixir'
+" Plugin 'scrooloose/syntastic'
+
+" Python
+Plugin 'nvie/vim-flake8'
 
 " GIT
 Bundle 'tpope/vim-fugitive'
@@ -23,16 +27,17 @@ Bundle 'tpope/vim-fugitive'
 " Themes
 Bundle 'https://github.com/andreabadesso/gruvbox'
 Bundle 'chriskempson/base16-vim'
+Bundle 'reedes/vim-colors-pencil'
 
 " CSS
 " Bundle 'ap/vim-css-color'
 
 " HTML
-Bundle 'gcmt/breeze.vim'
+" Bundle 'gcmt/breeze.vim'
 
 " Javascript
 Plugin 'othree/javascript-libraries-syntax.vim'
-Plugin 'othree/html5.vim'
+" Plugin 'othree/html5.vim'
 Plugin 'maksimr/vim-jsbeautify'
 Plugin 'myhere/vim-nodejs-complete'
 Plugin 'jelera/vim-javascript-syntax'
@@ -50,8 +55,9 @@ set t_Co=256
 set background=dark
 set term=screen-256color
 
-colorscheme gruvbox
+" colorscheme gruvbox
 " colorscheme base16-default
+colorscheme pencil
 
 if has('autocmd')
   filetype plugin indent on
@@ -113,7 +119,7 @@ set ignorecase
 set smartcase
 
 " Necessário para o powerline funcionar no MacVim
-set guifont=Source\ Code\ Pro\ for\ Powerline\ 12
+set guifont=Source\ Code\ Pro\ for\ Powerline:h13
 " set guifont=ProggyCleanTT\ 12
 
 " Remove fugly scrollbars in MacVim
