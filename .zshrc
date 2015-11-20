@@ -1,11 +1,11 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/andreabadesso/.dotfiles/zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+ZSH_THEME="pure"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -74,23 +74,22 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
 
 # Exports
-export DEFAULT_USER="andreabadesso"
+export DEFAULT_USER="andre"
 export TERM="xterm-256color"
-export NVM_DIR="/Users/andreabadesso/.nvm"
+export NVM_DIR="~/.nvm"
 
 # Alias
 alias ohmyzsh="mvim ~/.oh-my-zsh"
-
-# Activating NVM:
-. ~/.nvm/nvm.sh
+alias claer="clear"
 
 # Using node by default
 nvm use node
 
 # Z.sh
 . ~/.dotfiles/.z/z.sh
+
+# NVM
+export NVM_DIR="~/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
