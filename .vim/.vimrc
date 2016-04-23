@@ -1,33 +1,33 @@
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+    set nocompatible
+    filetype off
+    set rtp+=~/.vim/bundle/Vundle.vim
+    call vundle#begin()
 
-" Vundle
-Bundle 'gmarik/Vundle.vim'
-Bundle 'tpope/vim-surround'
-Bundle 'kien/ctrlp.vim'
-Bundle 'SirVer/ultisnips'
-" Bundle 'bling/vim-airline'
-Plugin 'Lokaltog/powerline'
-Plugin 'scrooloose/nerdtree'
-Plugin 'jwhitley/vim-matchit'
-Plugin 'marijnh/tern_for_vim'
-Plugin 'mattn/emmet-vim'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'elixir-lang/vim-elixir'
-" Plugin 'scrooloose/syntastic'
+    " Vundle
+    Bundle 'gmarik/Vundle.vim'
+    Bundle 'tpope/vim-surround'
+    Bundle 'kien/ctrlp.vim'
+    Bundle 'SirVer/ultisnips'
+    " Bundle 'bling/vim-airline'
+    Plugin 'Lokaltog/powerline'
+    Plugin 'scrooloose/nerdtree'
+    Plugin 'jwhitley/vim-matchit'
+    Plugin 'marijnh/tern_for_vim'
+    Plugin 'mattn/emmet-vim'
+    Plugin 'Valloric/YouCompleteMe'
+    Plugin 'elixir-lang/vim-elixir'
+    " Plugin 'scrooloose/syntastic'
 
-" Python
-Plugin 'nvie/vim-flake8'
+    " Python
+    Plugin 'nvie/vim-flake8'
 
-" GIT
-Bundle 'tpope/vim-fugitive'
+    " GIT
+    Bundle 'tpope/vim-fugitive'
 
-" Themes
-Bundle 'https://github.com/andreabadesso/gruvbox'
-Bundle 'chriskempson/base16-vim'
-Bundle 'reedes/vim-colors-pencil'
+    " Themes
+    Bundle 'https://github.com/andreabadesso/gruvbox'
+    Bundle 'chriskempson/base16-vim'
+    Bundle 'reedes/vim-colors-pencil'
 
 " CSS
 " Bundle 'ap/vim-css-color'
@@ -55,9 +55,9 @@ set t_Co=256
 set background=dark
 set term=screen-256color
 
-" colorscheme gruvbox
+colorscheme gruvbox
 " colorscheme base16-default
-colorscheme pencil
+" colorscheme pencil
 
 if has('autocmd')
   filetype plugin indent on
@@ -203,5 +203,12 @@ set ttimeout
 set ttimeoutlen=250
 set notimeout
 
+filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
 
 runtime macros/matchit.vim

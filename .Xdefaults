@@ -1,39 +1,66 @@
-! c o l o r -  s e t t i n g s
+Xcursor.theme:    Vanilla-DMZ-AA
 
-*background: #222222
-*foreground: #777777
+!urxvt color scheme:
 
-! Default
-! 0: black
-*color0:  #222222
-*color8:  #222222
-! 1: red
-*color1:  #9f6767
-*color9:  #9f6767
-! 2: green
-*color2:  #92ac68
-*color10: #92ac68
-! 3: yellow
-*color3:  #d0d293
-*color11: #d0d293
-! 4: blue
-*color4:  #9aacc3
-*color12: #9aacc3
-! 5: magenta
-*color5:  #bb77a4
-*color13: #bb77a4
-! 6: cyan
-*color6:  #77bbb5
-*color14: #77bbb5
-! 7: white
-*color7:  #777777
-*color15: #777777
+URxvt*background: #2B2B2B
+URxvt*foreground: #DEDEDE
 
-! u r x v t
+URxvt*colorUL: #86a2b0
 
-URxvt*geometry: 112x22
-URxvt*font: xft:terminus:size=8
-URxvt*urlLauncher: google-chrome
+! black
+URxvt*color0  : #2E3436
+URxvt*color8  : #555753
+! red
+URxvt*color1  : #CC0000
+URxvt*color9  : #EF2929
+! green
+URxvt*color2  : #4E9A06
+URxvt*color10 : #8AE234
+! yellow
+URxvt*color3  : #C4A000
+URxvt*color11 : #FCE94F
+! blue
+URxvt*color4  : #3465A4
+URxvt*color12 : #729FCF
+! magenta
+URxvt*color5  : #75507B
+URxvt*color13 : #AD7FA8
+! cyan
+URxvt*color6  : #06989A
+URxvt*color14 : #34E2E2
+! white
+URxvt*color7  : #D3D7CF
+URxvt*color15 : #EEEEEC
+
+!urxvt fonts: 
+
+URxvt*font: xft:Monospace:pixelsize=12
+URxvt*boldFont: xft:Monospace:bold:pixelsize=12
+
+
+!urxvt extensions:
+
+URxvt.perl-ext-common:  default,matcher,tabbedex
+
+!enabling clickable links:
+
+URxvt.urlLauncher:      /usr/bin/firefox
+URxvt.matcher.button:   1 
+
+!urxvt scrolling options and cursor style:
+
+URxvt*saveLines: 12000
+URxvt*scrollstyle:plain
 URxvt*scrollBar: false
-URxvt*scrollBar_right: true
-URxvt*scrollColor: #000000
+URxvt*cursorBlink: true
+URxvt*cursorUnderline: true
+
+! urxvt tabs settings:
+
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 2
+URxvt.tabbed.tab-bg: 8
+URxvt.tabbed.autohide:  yes
+URxvt.tabbed.new-button:  no
+URxvt.tabbed.title: no
