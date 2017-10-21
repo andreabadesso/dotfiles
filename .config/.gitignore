@@ -1,0 +1,28 @@
+# Random shit on my config folder which I am too scared to remove
+vlc/
+Skype/
+spotify/
+ranger/
+pulse/
+obs-studio/
+viewnior/
+volumeicon/
+xfce4/
+cef_user_data
+autostart/
+configstore/
+dconf/
+gconf/
+google-chrome/
+Google/
+gtk-2.0/
+gtk-3.0/
+htop/
+libreoffice/
+manjaro/
+menus/
+pulse/
+Thunar/
+
+# Real stuff
+nvim/plugged/

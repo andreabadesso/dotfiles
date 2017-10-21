@@ -84,11 +84,11 @@ alias ohmyzsh="mvim ~/.oh-my-zsh"
 alias claer="clear"
 alias install="yaourt -S "
 alias vi="vim "
-alias nvim="vim "
+# alias nvim="vim "
 alias claer="clear "
 
 # Z.sh
-# . ~/.dotfiles/.z/z.sh
+. /home/andre/Dev/utils/z/z.sh
 
 source ~/.nvm/nvm.sh
 

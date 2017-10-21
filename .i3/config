@@ -148,14 +148,6 @@ bar {
 # for_window [class="^.*"] border pixel 2
 
 exec_always feh --bg-scale /home/andre/Downloads/JExa2.jpg
-
-#exec_always urxvt
-#exec_always google-chrome-stable
-#exec_always spotify
-
 exec_always compton -f
 
 assign [class="google-chrome"] $workspace2
-#assign [class="URxvt"] $workspace1
-#assign [class="Spotify"] $workspace10
-

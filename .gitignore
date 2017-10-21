@@ -2,3 +2,32 @@
 .vim/bundle/*
 !.vim/bundle/vundle/
 dump.rdb
+
+# Random shit on my config folder which I am too scared to remove
+.config/vlc/
+.config/Skype/
+.config/spotify/
+.config/ranger/
+.config/pulse/
+.config/obs-studio/
+.config/viewnior/
+.config/volumeicon/
+.config/xfce4/
+.config/cef_user_data
+.config/autostart/
+.config/configstore/
+.config/dconf/
+.config/gconf/
+.config/google-chrome/
+.config/Google/
+.config/gtk-2.0/
+.config/gtk-3.0/
+.config/htop/
+.config/libreoffice/
+.config/manjaro/
+.config/menus/
+.config/pulse/
+.config/Thunar/
+
+# Real stuff
+.config/nvim/plugged/
